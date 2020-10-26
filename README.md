@@ -1,2 +1,3 @@
 # 3D-projection-camera-calibration
 In this Repository we calibrate a camera and then use a camera model to draw a 3D cube in the 2D image formed by the camera projection. 
+We used open-cv documentation to calibrate a camera using the Chess Board method, we calibrated a Web Cam and also a camera from a phone. After obtaining Cameras intrinsic parameters we saved them in a JSON file, among extrinsic parameters for our projective camera to view a 3D cube using the camera matrix. That JSON file is then read and the 3D cube is painted in an image. The view you get from the cube is determined by the extrinsic/intrinsic parameters read in the JSON file. 
